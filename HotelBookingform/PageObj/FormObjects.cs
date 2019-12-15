@@ -87,7 +87,7 @@ namespace HotelBookingform.PageObj
     }
         public void ClickdeleteButton()
         {
-            for (int i = 1; i <= 3; i++) {
+            for (int i = 1; i <= 2; i++) {
                 deleteButton.Click();
                 WaitforElement.wait();
 

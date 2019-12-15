@@ -10,10 +10,10 @@ echo report_html
 
 rem ..\packages\NUnit.ConsoleRunner.3.10.0\tools\nunit3-console.exe --labels=All  --where "cat == insert || cat == navigation" --out=..\ReportFiles\%report_txt% "--result=..\ReportFiles\%report_xml%;format=nunit2" ..\bin\Debug\SAM.dll
 
-..\packages\NUnit.ConsoleRunner.3.10.0\tools\nunit3-console.exe --labels=All --where "cat = Framework" --out=..\ReportFiles\%report_txt% "--result=..\ReportFiles\%report_xml%;format=nunit2" ..\bin\Debug\SAM.dll 
+..\packages\NUnit.ConsoleRunner.3.10.0\tools\nunit3-console.exe --labels=All --where "cat = mybooking" --out=..\ReportFiles\%report_txt% "--result=..\ReportFiles\%report_xml%;format=nunit2" ..\bin\Debug\HotelBookingform.dll 
 
 
-..\packages\SpecFlow.2.4.1\tools\specflow.exe nunitexecutionreport --ProjectFile ..\SAM.csproj --xmlTestResult ..\ReportFiles\%report_xml% --testOutput ..\ReportFiles\%report_txt% --OutputFile ..\ReportFiles\%report_html%
+..\packages\SpecFlow.2.4.1\tools\specflow.exe nunitexecutionreport --ProjectFile ..\HotelBookingform.csproj --xmlTestResult ..\ReportFiles\%report_xml% --testOutput ..\ReportFiles\%report_txt% --OutputFile ..\ReportFiles\%report_html%
 
 
 
