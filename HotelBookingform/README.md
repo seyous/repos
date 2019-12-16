@@ -13,7 +13,7 @@ https://github.com/seyous/repos/tree/master/HotelBookingform
 
 
 Getting Started
-- To access the project in Visual Studio install the following nuget package on visual studio, specflow, Nunit, Selenium webdriver, selenium support, nunitt3TestAdapter, nunit console nunit runner, specflow nunit, selenium webdriver chromedriver
+- To access the project in Visual Studio install the following nuget package on visual studio, specflow, Nunit, Selenium.webdriver, selenium.support, nunitt3TestAdapter, nunit.console, nunit.runner, specflow.nunit, selenium.webdriver.chromedriver, Specflow.Tools.Msbuild.Generation
 
 
 Installing
@@ -21,7 +21,7 @@ Installing
 
 
 To Run the tests
-- Please Double click Reports folder and double click Reportgenerator bat file. it will run the test and generate, 3 files, html report, xmlreport and a textreport
+- Please Double click Reports folder and double click Reportgenerator bat file. it will run the test and generate html report, xmlreport and a textreport inside the Reportfiles folder.
 
 
 
