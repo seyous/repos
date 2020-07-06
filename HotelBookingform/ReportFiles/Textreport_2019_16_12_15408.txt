@@ -1,0 +1,121 @@
+=> HotelBookingform.Features.VerifyBookingWithValidUserDetailsFeature.TheUserEntersValidCredentialsToCreateABooking("oluseyi","ojo","706","true","2019-12-13","2019-12-13",null)
+Given user navigate to the website form
+-> done: VerifyBookingWithValidUserDetailsSteps.GivenUserNavigateToTheWebsiteForm() (5.6s)
+When the user enters the firstname "oluseyi"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheFirstname("oluseyi") (2.4s)
+And the user enters the surname "ojo"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheSurname("ojo") (0.2s)
+And the user enters the price "706"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersThePrice(706) (2.2s)
+And the user enters the deposit "true"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheDeposit("true") (2.3s)
+And the user enters the checkin "2019-12-13"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheCheckin("2019-12-13") (2.5s)
+And the user enters the checkout "2019-12-13"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheCheckout("2019-12-13") (2.4s)
+And the click on the save button
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheClickOnTheSaveButton() (2.2s)
+Then the user information is displayed
+-> done: VerifyBookingWithValidUserDetailsSteps.ThenTheUserInformationIsDisplayed() (4.1s)
+=> HotelBookingform.Features.VerifyBookingWithValidUserDetailsFeature.TheUserEntersValidCredentialsToCreateABooking("willaims","beth","532","true","2019-12-13","2019-12-14",null)
+Given user navigate to the website form
+-> done: VerifyBookingWithValidUserDetailsSteps.GivenUserNavigateToTheWebsiteForm() (5.4s)
+When the user enters the firstname "willaims"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheFirstname("willaims") (2.4s)
+And the user enters the surname "beth"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheSurname("beth") (0.2s)
+And the user enters the price "532"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersThePrice(532) (2.2s)
+And the user enters the deposit "true"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheDeposit("true") (2.2s)
+And the user enters the checkin "2019-12-13"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheCheckin("2019-12-13") (2.5s)
+And the user enters the checkout "2019-12-14"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheCheckout("2019-12-14") (2.3s)
+And the click on the save button
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheClickOnTheSaveButton() (2.2s)
+Then the user information is displayed
+-> done: VerifyBookingWithValidUserDetailsSteps.ThenTheUserInformationIsDisplayed() (4.1s)
+=> HotelBookingform.Features.VerifyBookingWithValidUserDetailsFeature.TheUserEntersValidCredentialsToCreateABooking("brown","phillip","606","false","2019-12-21","2020-05-13",null)
+Given user navigate to the website form
+-> done: VerifyBookingWithValidUserDetailsSteps.GivenUserNavigateToTheWebsiteForm() (5.4s)
+When the user enters the firstname "brown"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheFirstname("brown") (2.2s)
+And the user enters the surname "phillip"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheSurname("phillip") (0.2s)
+And the user enters the price "606"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersThePrice(606) (2.2s)
+And the user enters the deposit "false"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheDeposit("false") (2.2s)
+And the user enters the checkin "2019-12-21"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheCheckin("2019-12-21") (2.5s)
+And the user enters the checkout "2020-05-13"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheCheckout("2020-05-13") (2.4s)
+And the click on the save button
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheClickOnTheSaveButton() (2.1s)
+Then the user information is displayed
+-> done: VerifyBookingWithValidUserDetailsSteps.ThenTheUserInformationIsDisplayed() (4.0s)
+=> HotelBookingform.Features.VerifyBookingWithValidUserDetailsFeature.TheUserEntersValidCredentialsToCreateABooking("henry","queen","932","false","2019-12-14","2020-12-14",null)
+Given user navigate to the website form
+-> done: VerifyBookingWithValidUserDetailsSteps.GivenUserNavigateToTheWebsiteForm() (5.5s)
+When the user enters the firstname "henry"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheFirstname("henry") (2.3s)
+And the user enters the surname "queen"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheSurname("queen") (0.2s)
+And the user enters the price "932"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersThePrice(932) (2.1s)
+And the user enters the deposit "false"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheDeposit("false") (2.2s)
+And the user enters the checkin "2019-12-14"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheCheckin("2019-12-14") (2.4s)
+And the user enters the checkout "2020-12-14"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheCheckout("2020-12-14") (2.3s)
+And the click on the save button
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheClickOnTheSaveButton() (2.1s)
+Then the user information is displayed
+-> done: VerifyBookingWithValidUserDetailsSteps.ThenTheUserInformationIsDisplayed() (4.1s)
+=> HotelBookingform.Features.VerifyDeleteBookingFeature.TheUserCanDeleteABooking("oluseyi","ojo","706","true","2019-12-13","2019-12-13",null)
+Given user navigate to the website form
+-> done: VerifyBookingWithValidUserDetailsSteps.GivenUserNavigateToTheWebsiteForm() (5.1s)
+When the user enters the firstname "oluseyi"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheFirstname("oluseyi") (2.2s)
+And the user enters the surname "ojo"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheSurname("ojo") (0.1s)
+And the user enters the price "706"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersThePrice(706) (2.2s)
+And the user enters the deposit "true"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheDeposit("true") (2.1s)
+And the user enters the checkin "2019-12-13"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheCheckin("2019-12-13") (2.5s)
+And the user enters the checkout "2019-12-13"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheCheckout("2019-12-13") (2.3s)
+And the click on the save button
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheClickOnTheSaveButton() (2.2s)
+Then the user information is displayed
+-> done: VerifyBookingWithValidUserDetailsSteps.ThenTheUserInformationIsDisplayed() (4.1s)
+And the user delete the booking
+-> done: VerifyBookingWithValidUserDetailsSteps.ThenTheUserDeleteTheBooking() (6.3s)
+=> HotelBookingform.Features.VerifyDeleteBookingFeature.TheUserCanDeleteABooking("james","hillary","532","true","2019-12-13","2019-12-14",null)
+Given user navigate to the website form
+-> done: VerifyBookingWithValidUserDetailsSteps.GivenUserNavigateToTheWebsiteForm() (5.3s)
+When the user enters the firstname "james"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheFirstname("james") (2.2s)
+And the user enters the surname "hillary"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheSurname("hillary") (0.2s)
+And the user enters the price "532"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersThePrice(532) (2.1s)
+And the user enters the deposit "true"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheDeposit("true") (2.1s)
+And the user enters the checkin "2019-12-13"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheCheckin("2019-12-13") (2.5s)
+And the user enters the checkout "2019-12-14"
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheUserEntersTheCheckout("2019-12-14") (2.4s)
+And the click on the save button
+-> done: VerifyBookingWithValidUserDetailsSteps.WhenTheClickOnTheSaveButton() (2.2s)
+Then the user information is displayed
+-> done: VerifyBookingWithValidUserDetailsSteps.ThenTheUserInformationIsDisplayed() (4.1s)
+And the user delete the booking
+-> done: VerifyBookingWithValidUserDetailsSteps.ThenTheUserDeleteTheBooking() (6.3s)
+=> HotelBookingform_NUnitAssemblyHooks
+-> Loading plugin C:\Users\aka_s\source\repos\HotelBookingform\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Using default config

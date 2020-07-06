@@ -64,13 +64,13 @@ namespace HotelBookingform.PageObj
 
         }
 
-       
+
         public bool BookingIsDisplayed()
         {
             for (int i = 0; i <= 5; i++)
             {
-            
-            bool searchIconPresence = Hooks.driver.FindElementByClassName("row").Displayed;
+
+                bool searchIconPresence = Hooks.driver.FindElementByClassName("row").Displayed;
                 if (searchIconPresence == true)
                 {
                     WaitforElement.wait();
@@ -80,20 +80,21 @@ namespace HotelBookingform.PageObj
                 {
                     return false;
                 }
-               
-        }
-            return false;
-
-    }
-        public void ClickdeleteButton()
-        {
-            for (int i = 1; i <= 2; i++) {
-                deleteButton.Click();
-                WaitforElement.wait();
 
             }
+            return false;
         }
 
 
-    }
+            public void ClickdeleteButton()
+            {
+                for (int i = 1; i <= 2; i++) {
+                    deleteButton.Click();
+                    WaitforElement.wait();
+
+                }
+            }
+
+
+        } 
 }

@@ -9,7 +9,7 @@ namespace DaviesTest.Steps
     [Binding]
     public class CreateUserAccountAndValidateFieldSteps
     {
-        loginpage Loginpage = new loginpage();
+        registerpage Loginpage = new registerpage();
 
         public CreateUserAccountAndValidateFieldSteps()
         {
@@ -22,13 +22,13 @@ namespace DaviesTest.Steps
             //ScenarioContext.Current.Pending();
         }
         
-        [When(@"User enter credentials")]
-        public void WhenUserEnterCredentials(Table table)
-        {
-           var dictionary = Tableextension.Todictionary(table);
-           // Hooks.driver.fi
+        //[When(@"User enter credentials")]
+        //public void WhenUserEnterCredentials(Table table)
+        //{
+        //   var dictionary = Tableextension.Todictionary(table);
+        //   // Hooks.driver.fi
 
-        }
+        //}
         
         [When(@"Click on the Register button")]
         public void WhenClickOnTheRegisterButton()
@@ -36,10 +36,10 @@ namespace DaviesTest.Steps
             ScenarioContext.Current.Pending();
         }
         
-        [Then(@"Successful LogIN message should display")]
-        public void ThenSuccessfulLogINMessageShouldDisplay()
-        {
-            ScenarioContext.Current.Pending();
-        }
+        //[Then(@"Successful LogIN message should display")]
+        //public void ThenSuccessfulLogINMessageShouldDisplay()
+        //{
+        //    ScenarioContext.Current.Pending();
+        //}
     }
 }

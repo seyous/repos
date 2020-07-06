@@ -1,5 +1,5 @@
-﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Support.PageObjects;
+﻿using DaviesTest.Util;
+using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,67 +10,43 @@ namespace DaviesTest.pageobj
 {
     public class loginpage
     {
-        
-       [FindsBy(How = How.XPath, Using = "//div[@class ='header_user_info']//a[@class='login']")]
-       private IWebElement signIn;
+        IWebElement mailTextbox => Hooks.driver.FindElementById("email");
+        IWebElement passwordTextbox => Hooks.driver.FindElementById("passwd");
 
-        [FindsBy(How = How.Name, Using = "email_create")]
-        private IWebElement emailTextbox;
+        IWebElement signoutButton => Hooks.driver.FindElementByClassName("logout");
 
-        [FindsBy(How = How.Id, Using = "SubmitCreate")]
-        private IWebElement createAccountbutton;
+        IWebElement submitloginButton => Hooks.driver.FindElementById("SubmitLogin");
 
-        [FindsBy(How = How.Id, Using = "customer_firstname")]
-        private IWebElement firstnameTextbox;
+        IWebElement signinMessage => Hooks.driver.FindElementByCssSelector("#center_column > p");
 
-        [FindsBy(How = How.Id, Using = "SubmitCreate")]
-        private IWebElement lastTextbox;
 
-        [FindsBy(How = How.Id, Using = "passwd")]
-        private IWebElement passwordTextbox;
+        public void ClickSignout()
+        {
+            signoutButton.Click();
+        }
 
-        [FindsBy(How = How.Id, Using = "firstname")]
-        private IWebElement first_nameTextbox;
+        public void Enteremailaddress()
+        {
+            WaitforElement.wait();
+            mailTextbox.Clear();
+            mailTextbox.SendKeys("vision01@gmail.com");
+        }
 
-        [FindsBy(How = How.Id, Using = "lastname")]
-        private IWebElement last_nameTextbox;
-
-        [FindsBy(How = How.Id, Using = "address1")]
-        private IWebElement addressTextbox;
-
-        [FindsBy(How = How.Id, Using = "city")]
-        private IWebElement cityTextbox;
-
-        [FindsBy(How = How.Id, Using = "SubmitCreate")]
-        private IWebElement stateTextbox;
-
-        [FindsBy(How = How.Id, Using = "SubmitCreate")]
-        private IWebElement postalcodeTextbox;
-
-        [FindsBy(How = How.Id, Using = "SubmitCreate")]
-        private IWebElement countryTextbox;
-
-        [FindsBy(How = How.Id, Using = "phone_mobile")]
-        private IWebElement mobilephoneTextbox;
-
-        [FindsBy(How = How.Id, Using = "SubmitCreate")]
-        private IWebElement aliasTextbox;
+        public void EnterPassword()
+        {
+            passwordTextbox.Clear();
+            passwordTextbox.SendKeys("Blender1");
+        }
 
         public void ClickSigninbutton()
         {
-            signIn.Click();
-        }
-      
-        
-        public void Inputemail()
-        {
-            emailTextbox.Clear();
-            emailTextbox.SendKeys("aka_seyous@yahoo.com");
+            submitloginButton.Click();
         }
 
-         public void ClickCreateAccountbutton()
+        public string SignInmassage()
         {
-            createAccountbutton.Click();
+            return signinMessage.Text;
         }
+
     }
 }

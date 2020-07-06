@@ -12,7 +12,9 @@ namespace HotelBookingform.Utilities
    
     public static class WaitforElement
     {
-        public static IWebElement webElement;  
+        public static IWebElement webElement;
+
+        public static object ExpectedConditions { get; private set; }
 
         public static void wait()
         {
@@ -27,8 +29,9 @@ namespace HotelBookingform.Utilities
 
         public static void DriverWait()
         {
-           // WebDriverWait wait = new WebDriverWait(wb, 20);
-            //webElement = wait.Until(.visibilityOfElementLocated(By.id("about_me")));
-        }
+            //WebDriverWait wait = new WebDriverWait(Hooks.driver, 20);
+            //webElement = wait.Until(ExpectedCondition.visibilityOfElementLocated(By.id("about_me")));
+
+            }
     }
 }

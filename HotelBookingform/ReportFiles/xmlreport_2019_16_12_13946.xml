@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="HotelBookingform.dll" total="6" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2019-12-16" time="11:39:46">
+  <environment nunit-version="3.6.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.18362.0" platform="Win32NT" cwd="C:\Users\aka_s\source\repos\HotelBookingform\Reports" machine-name="DESKTOP-QQB6KRE" user="aka_s" user-domain="DESKTOP-QQB6KRE" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="HotelBookingform.dll" executed="True" result="Success" success="True" time="201.685" asserts="0">
+    <properties>
+      <property name="_PID" value="18320" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <results>
+      <test-suite type="SetUpFixture" name="[default namespace]" executed="True" result="Success" success="True" time="201.635" asserts="0">
+        <results>
+          <test-suite type="TestSuite" name="HotelBookingform" executed="True" result="Success" success="True" time="200.331" asserts="0">
+            <results>
+              <test-suite type="TestSuite" name="Features" executed="True" result="Success" success="True" time="200.331" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="VerifyBookingWithValidUserDetailsFeature" description="Verify Booking with Valid User details" executed="True" result="Success" success="True" time="125.703" asserts="0">
+                    <properties>
+                      <property name="Description" value="Verify Booking with Valid User details" />
+                    </properties>
+                    <results>
+                      <test-suite type="ParameterizedTest" name="TheUserEntersValidCredentialsToCreateABooking" description="The user enters valid credentials to create a booking" executed="True" result="Success" success="True" time="125.688" asserts="0">
+                        <categories>
+                          <category name="mybooking" />
+                        </categories>
+                        <properties>
+                          <property name="Description" value="The user enters valid credentials to create a booking" />
+                        </properties>
+                        <results>
+                          <test-case name="HotelBookingform.Features.VerifyBookingWithValidUserDetailsFeature.TheUserEntersValidCredentialsToCreateABooking(&quot;oluseyi&quot;,&quot;ojo&quot;,&quot;706&quot;,&quot;true&quot;,&quot;2019-12-13&quot;,&quot;2019-12-13&quot;,null)" executed="True" result="Success" success="True" time="32.077" asserts="0" />
+                          <test-case name="HotelBookingform.Features.VerifyBookingWithValidUserDetailsFeature.TheUserEntersValidCredentialsToCreateABooking(&quot;willaims&quot;,&quot;beth&quot;,&quot;532&quot;,&quot;true&quot;,&quot;2019-12-13&quot;,&quot;2019-12-14&quot;,null)" executed="True" result="Success" success="True" time="31.432" asserts="0" />
+                          <test-case name="HotelBookingform.Features.VerifyBookingWithValidUserDetailsFeature.TheUserEntersValidCredentialsToCreateABooking(&quot;brown&quot;,&quot;phillip&quot;,&quot;606&quot;,&quot;false&quot;,&quot;2019-12-21&quot;,&quot;2020-05-13&quot;,null)" executed="True" result="Success" success="True" time="31.100" asserts="0" />
+                          <test-case name="HotelBookingform.Features.VerifyBookingWithValidUserDetailsFeature.TheUserEntersValidCredentialsToCreateABooking(&quot;henry&quot;,&quot;queen&quot;,&quot;932&quot;,&quot;false&quot;,&quot;2019-12-14&quot;,&quot;2020-12-14&quot;,null)" executed="True" result="Success" success="True" time="31.019" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="VerifyDeleteBookingFeature" description="Verify Delete Booking" executed="True" result="Success" success="True" time="74.616" asserts="0">
+                    <properties>
+                      <property name="Description" value="Verify Delete Booking" />
+                    </properties>
+                    <results>
+                      <test-suite type="ParameterizedTest" name="TheUserCanDeleteABooking" description="The user can delete a booking" executed="True" result="Success" success="True" time="74.612" asserts="0">
+                        <categories>
+                          <category name="mybooking" />
+                        </categories>
+                        <properties>
+                          <property name="Description" value="The user can delete a booking" />
+                        </properties>
+                        <results>
+                          <test-case name="HotelBookingform.Features.VerifyDeleteBookingFeature.TheUserCanDeleteABooking(&quot;oluseyi&quot;,&quot;ojo&quot;,&quot;706&quot;,&quot;true&quot;,&quot;2019-12-13&quot;,&quot;2019-12-13&quot;,null)" executed="True" result="Success" success="True" time="37.713" asserts="0" />
+                          <test-case name="HotelBookingform.Features.VerifyDeleteBookingFeature.TheUserCanDeleteABooking(&quot;james&quot;,&quot;hillary&quot;,&quot;532&quot;,&quot;true&quot;,&quot;2019-12-13&quot;,&quot;2019-12-14&quot;,null)" executed="True" result="Success" success="True" time="36.897" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

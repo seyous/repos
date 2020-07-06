@@ -1,5 +1,6 @@
 ﻿using HotelBookingform.PageObj;
 using HotelBookingform.Utilities;
+using NUnit.Framework;
 using System;
 using System.Drawing;
 using TechTalk.SpecFlow;
@@ -80,7 +81,7 @@ namespace HotelBookingform.Steps
         public void ThenTheUserInformationIsDisplayed()
         {
             WaitforElement.wait();
-            _formObjects.BookingIsDisplayed();
+            Assert.IsTrue(_formObjects.BookingIsDisplayed());
         }
 
         [Then(@"the user delete the booking")]

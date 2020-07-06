@@ -20,7 +20,7 @@ namespace HotelBookingform.Utilities
         [AfterScenario]
         public void AfterScenario()
         {
-            driver.Close();
+            driver.Dispose();
         }
     }
 }
